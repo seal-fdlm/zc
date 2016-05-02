@@ -651,7 +651,7 @@ img.right {
 	position: relative;
 	max-width: 1000px;
 	padding: 0 10px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto
 	
 }
