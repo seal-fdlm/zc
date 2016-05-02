@@ -651,8 +651,9 @@ img.right {
 	position: relative;
 	max-width: 1000px;
 	padding: 0 10px;
-	text-align: left;
+	text-align: center;
 	margin: 0 auto
+	
 }
 
 @media ( min-width :641px) {
@@ -12990,11 +12991,14 @@ img.influencer-datacollection {
 /*=====================================*/
 
 .mainlogo{
-	 margin-top: -15px; left: 23%; position: relative;
+	 margin-top: -15px;
+}
+.mainlogo.mobile-show {
+	display: inline;
 }
 @media ( min-width :641px) {
 	.mainlogo {
-		display:inline-block;
+		display:inline;
 	}
 }
 .p-bar{
